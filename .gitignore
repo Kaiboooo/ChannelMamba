@@ -1,0 +1,30 @@
+# Legacy local material kept outside the open-source package boundary
+legacy/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+build/
+dist/
+*.egg-info/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Outputs
+outputs/
+runs/
+logs/
+Weights*/
+test_results*/
+
+# Editors / OS
+.DS_Store
+.ipynb_checkpoints/
+.codex
